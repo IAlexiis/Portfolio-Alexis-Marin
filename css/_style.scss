@@ -170,10 +170,22 @@ body {
         object-fit: cover;
       }
 
+      .laravel {
+        width: 85px;
+        height: 85px;
+        object-fit: cover;
+      }
+
       .js {
         width: 100px;
         height: 100px;
         object-fit: cover;
+      }
+
+      .php {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
       }
 
       .sass {
@@ -220,6 +232,7 @@ body {
       border-top: solid rgb(67, 67, 67) 1px;
       border-right: solid rgb(67, 67, 67) 1px;
       border-left: solid rgb(67, 67, 67) 1px;
+      gap: 20px;
     }
 
     #competence-card::after,
